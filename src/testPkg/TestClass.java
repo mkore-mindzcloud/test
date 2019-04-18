@@ -18,7 +18,7 @@ public static void main(String[] args) {
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		
 		WebElement Username = driver.findElement(By.id("56:34;a"));
-		Username.sendKeys("pujacstest@gmail.com");
+		Username.sendKeys("mohittest@gmail.com");
 		WebElement Password = driver.findElement(By.id("66:34;a"));
 		Password.sendKeys("testing123");
 		
